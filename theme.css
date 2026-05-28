@@ -1,0 +1,41 @@
+/* GLOBAL STYLING */
+
+body {
+    --divider-width: 4px;
+
+    --tag-padding-y: 4px;
+    --tag-padding-x: 8px;
+    --tag-radius: 10px;
+
+}
+
+
+
+
+/* THEME-SPECIFIC STYLING */
+
+.theme-dark {
+    /* COMPONENTS */
+    --divider-color: rgb(21, 21, 21);
+    --divider-color-hover: rgb(196, 196, 196);
+    --titlebar-background: rgb(21, 21, 21);
+    --titlebar-background-focused: rgb(21, 21, 21);
+
+    --status-bar-border-color: rgb(23, 23, 23);
+    --status-bar-background: rgb(23, 23, 23);
+
+    --background-primary: rgb(26, 26, 26);
+    --background-primary-alt: rgb(31, 31, 31);
+
+    --background-secondary: rgb(26, 26, 26);
+
+
+    /* EDITOR */
+    --text-faint: rgb(155, 155, 155);
+    --hr-color: rgb(59, 59, 59);
+
+    --checkbox-border-color: rgb(62, 62, 62);
+    --checkbox-border-color-hover: rgb(132, 132, 132);
+
+    --text-highlight-bg: rgba(245, 243, 133, 0.28);
+}
